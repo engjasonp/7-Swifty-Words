@@ -13,6 +13,7 @@
 		CAF7BEB91B6AF97500F8D043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BEB81B6AF97500F8D043 /* Images.xcassets */; };
 		CAF7BEBC1B6AF97500F8D043 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BEBA1B6AF97500F8D043 /* LaunchScreen.xib */; };
 		CAF7BEC81B6AF97500F8D043 /* __Swifty_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7BEC71B6AF97500F8D043 /* __Swifty_WordsTests.swift */; };
+		CAF7BED21B6B119A00F8D043 /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7BED11B6B119A00F8D043 /* Array+Shuffling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CAF7BEC11B6AF97500F8D043 /* 7 Swifty WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7 Swifty WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF7BEC61B6AF97500F8D043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAF7BEC71B6AF97500F8D043 /* __Swifty_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Swifty_WordsTests.swift; sourceTree = "<group>"; };
+		CAF7BED11B6B119A00F8D043 /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF7BEB11B6AF97500F8D043 /* AppDelegate.swift */,
+				CAF7BED11B6B119A00F8D043 /* Array+Shuffling.swift */,
 				CAF7BEB31B6AF97500F8D043 /* ViewController.swift */,
 				CAF7BEB51B6AF97500F8D043 /* Main.storyboard */,
 				CAF7BEB81B6AF97500F8D043 /* Images.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				CAF7BEB41B6AF97500F8D043 /* ViewController.swift in Sources */,
 				CAF7BEB21B6AF97500F8D043 /* AppDelegate.swift in Sources */,
+				CAF7BED21B6B119A00F8D043 /* Array+Shuffling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
