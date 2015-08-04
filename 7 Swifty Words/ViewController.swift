@@ -42,6 +42,12 @@ class ViewController: UIViewController {
                 ac.addAction(UIAlertAction(title: "Let's go!", style: .Default, handler: levelUp))
                 presentViewController(ac, animated: true, completion: nil)
             }
+        } else {
+            currentAnswer.text = ""
+            --score
+            // unhide selected letters
+            // alert message saying incorrect
+            // change next level conditions to maxscore - 1
         }
     }
     @IBAction func clearTapped(sender: UIButton) {
