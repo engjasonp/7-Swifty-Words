@@ -14,6 +14,8 @@
 		CAF7BEBC1B6AF97500F8D043 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BEBA1B6AF97500F8D043 /* LaunchScreen.xib */; };
 		CAF7BEC81B6AF97500F8D043 /* __Swifty_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7BEC71B6AF97500F8D043 /* __Swifty_WordsTests.swift */; };
 		CAF7BED21B6B119A00F8D043 /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7BED11B6B119A00F8D043 /* Array+Shuffling.swift */; };
+		CAF7BED51B70384300F8D043 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BED31B70384300F8D043 /* level1.txt */; };
+		CAF7BED61B70384300F8D043 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BED41B70384300F8D043 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CAF7BEC61B6AF97500F8D043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAF7BEC71B6AF97500F8D043 /* __Swifty_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Swifty_WordsTests.swift; sourceTree = "<group>"; };
 		CAF7BED11B6B119A00F8D043 /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
+		CAF7BED31B70384300F8D043 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = Content/level1.txt; sourceTree = "<group>"; };
+		CAF7BED41B70384300F8D043 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level2.txt; path = Content/level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		CAF7BEAF1B6AF97500F8D043 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAF7BED31B70384300F8D043 /* level1.txt */,
+				CAF7BED41B70384300F8D043 /* level2.txt */,
 				CAF7BEB01B6AF97500F8D043 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,7 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF7BED61B70384300F8D043 /* level2.txt in Resources */,
 				CAF7BEB71B6AF97500F8D043 /* Main.storyboard in Resources */,
+				CAF7BED51B70384300F8D043 /* level1.txt in Resources */,
 				CAF7BEBC1B6AF97500F8D043 /* LaunchScreen.xib in Resources */,
 				CAF7BEB91B6AF97500F8D043 /* Images.xcassets in Resources */,
 			);
