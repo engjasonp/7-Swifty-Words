@@ -48,6 +48,7 @@ class ViewController: UIViewController {
             // unhide selected letters
             // alert message saying incorrect
             // change next level conditions to maxscore - 1
+            // disable keyboard
         }
     }
     @IBAction func clearTapped(sender: UIButton) {
@@ -127,6 +128,10 @@ class ViewController: UIViewController {
         for btn in letterButtons {
             btn.hidden = false
         }
+    }
+    
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+        return false
     }
     
     override func didReceiveMemoryWarning() {
