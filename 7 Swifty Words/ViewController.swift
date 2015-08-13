@@ -44,13 +44,17 @@ class ViewController: UIViewController {
                 presentViewController(ac, animated: true, completion: nil)
             }
         } else {
-            currentAnswer.text = ""
-            --score
-            --maxScore
-            // unhide selected letters
-            // alert message saying incorrect
-
-            // disable keyboard
+            if (currentAnswer.text == "") {
+                
+            } else {
+                currentAnswer.text = ""
+                --score
+                --maxScore
+                // unhide selected letters
+                // alert message saying incorrect
+                
+                // disable keyboard
+            }
         }
     }
     @IBAction func clearTapped(sender: UIButton) {
