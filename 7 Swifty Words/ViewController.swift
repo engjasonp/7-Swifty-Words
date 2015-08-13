@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     var activatedButtons = [UIButton]()
     var solutions = [String]()
     
+    var maxScore = 7
     var score: Int = 0 {
         didSet {
             scoreLabel.text = "Score: \(score)"
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
             currentAnswer.text = ""
             ++score
             
-            if score % 7 == 0 {
+            if score == maxScore {
                 let ac = UIAlertController(title: "Well done!", message: "Are you ready for the next level?", preferredStyle: .Alert)
                 ac.addAction(UIAlertAction(title: "Let's go!", style: .Default, handler: levelUp))
                 presentViewController(ac, animated: true, completion: nil)
@@ -45,9 +46,10 @@ class ViewController: UIViewController {
         } else {
             currentAnswer.text = ""
             --score
+            --maxScore
             // unhide selected letters
             // alert message saying incorrect
-            // change next level conditions to maxscore - 1
+
             // disable keyboard
         }
     }
