@@ -53,6 +53,9 @@ class ViewController: UIViewController {
                 let ac = UIAlertController(title: "Incorrect!", message: "Try again.", preferredStyle: .Alert)
                 ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
                 presentViewController(ac, animated: true, completion: nil)
+                for btn in activatedButtons {
+                    btn.hidden = false
+                }
                 return
                 // unhide selected letters
             }
