@@ -50,10 +50,11 @@ class ViewController: UIViewController {
                 currentAnswer.text = ""
                 --score
                 --maxScore
+                let ac = UIAlertController(title: "Incorrect!", message: "Try again.", preferredStyle: .Alert)
+                ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+                presentViewController(ac, animated: true, completion: nil)
+                return
                 // unhide selected letters
-                // alert message saying incorrect
-                
-                // disable keyboard
             }
         }
     }
